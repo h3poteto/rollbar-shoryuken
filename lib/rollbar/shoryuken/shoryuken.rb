@@ -6,9 +6,14 @@ module Rollbar
     class RollbarMiddleware
       def call(worker, queue, sqs_msg, body)
         begin
-          yeild
+          yield
         rescue Exception => exception
-          Rollbar.scope({:sqs_msg => sqs_msg}).error(exception, :use_exception_level_filters => true)
+          scope = {
+            :message => {
+              :body => body
+            }
+          }
+          Rollbar.scope(scope).error(exception, :use_exception_level_filters => true)
           raise exception
         end
       end
