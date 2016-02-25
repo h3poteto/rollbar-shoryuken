@@ -1,6 +1,6 @@
 # Rollbar::Shoryuken
 
-This Ruby gem is an extension of the [rollbar](https://github.com/rollbar/rollbar-gem) gem, and provides a set of notifiers for sending notifications when errors occur in Shoryuken worker. It is useful when you use rollbar and shoryuken in Rails.
+This Ruby gem is an extension of the [rollbar](https://github.com/rollbar/rollbar-gem) gem, and provides a set of notifiers for sending notifications when errors occur in [Shoryuken](https://github.com/phstc/shoryuken) worker. It is useful when you use rollbar and shoryuken in Rails.
 
 ## Installation
 
