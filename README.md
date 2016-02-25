@@ -1,8 +1,6 @@
 # Rollbar::Shoryuken
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/rollbar/shoryuken`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This Ruby gem is an extension of the [rollbar](https://github.com/rollbar/rollbar-gem) gem, and provides a set of notifiers for sending notifications when errors occur in Shoryuken worker. It is useful when you use rollbar and shoryuken in Rails.
 
 ## Installation
 
@@ -22,7 +20,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add require in your initializer like config/initializers/rollbar.rb:
+
+require 'rollbar/shoryuken'
+
+Rollbar.configure do |config|
+  # setup some notification
+end
+
 
 ## Development
 
@@ -32,7 +37,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/rollbar-shoryuken. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/h3poteto/rollbar-shoryuken. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
