@@ -9,8 +9,9 @@ module Rollbar
           yield
         rescue Exception => exception
           scope = {
-            :message => {
-              :body => body
+            :sqs_msg => {
+              :data => sqs_msg.data,
+              :queue_name => sqs_msg.queue_name
             }
           }
           Rollbar.scope(scope).error(exception, :use_exception_level_filters => true)
