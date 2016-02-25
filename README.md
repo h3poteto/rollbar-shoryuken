@@ -22,11 +22,13 @@ Or install it yourself as:
 
 Add require in your initializer like config/initializers/rollbar.rb:
 
+```ruby
 require 'rollbar/shoryuken'
 
 Rollbar.configure do |config|
   # setup some notification
 end
+```
 
 
 ## Development
