@@ -1,4 +1,9 @@
 # Rollbar::Shoryuken
+[![Build Status](https://travis-ci.com/h3poteto/rollbar-shoryuken.svg?branch=master)](https://travis-ci.com/h3poteto/rollbar-shoryuken)
+[![GitHub release](https://img.shields.io/github/release/h3poteto/rollbar-shoryuken)](https://github.com/h3poteto/rollbar-shoryuken/releases)
+[![Gem](https://img.shields.io/gem/v/rollbar-shoryuken)](https://rubygems.org/gems/rollbar-shoryuken)
+![Gem](https://img.shields.io/gem/dt/rollbar-shoryuken)
+
 
 This Ruby gem is an extension of the [rollbar](https://github.com/rollbar/rollbar-gem) gem, and provides a set of notifiers for sending notifications when errors occur in [Shoryuken](https://github.com/phstc/shoryuken) worker. It is useful when you use rollbar and shoryuken in Rails.
 
