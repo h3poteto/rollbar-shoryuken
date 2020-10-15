@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency 'shoryuken', '>= 4.0', '<= 5.3'
-  spec.add_runtime_dependency 'rollbar', '~> 2.21', '<= 3.0'
+  spec.add_runtime_dependency 'rollbar', '>= 2.21', '< 4.0', '<= 4.0'
   spec.add_runtime_dependency 'aws-sdk-sqs', '~> 1.20', '<= 2.0'
   spec.add_runtime_dependency 'ox', '~> 2.14'
 
