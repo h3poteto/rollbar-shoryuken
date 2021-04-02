@@ -1,5 +1,5 @@
 # Rollbar::Shoryuken
-[![Build Status](https://travis-ci.com/h3poteto/rollbar-shoryuken.svg?branch=master)](https://travis-ci.com/h3poteto/rollbar-shoryuken)
+[![Test](https://github.com/h3poteto/rollbar-shoryuken/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/h3poteto/rollbar-shoryuken/actions/workflows/test.yml)
 [![GitHub release](https://img.shields.io/github/release/h3poteto/rollbar-shoryuken)](https://github.com/h3poteto/rollbar-shoryuken/releases)
 [![Gem](https://img.shields.io/gem/v/rollbar-shoryuken)](https://rubygems.org/gems/rollbar-shoryuken)
 ![Gem](https://img.shields.io/gem/dt/rollbar-shoryuken)
