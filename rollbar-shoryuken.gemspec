@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency 'shoryuken', '>= 4.0', '<= 5.3'
+  spec.add_runtime_dependency 'shoryuken', '>= 4.0', '<= 6.2'
   spec.add_runtime_dependency 'rollbar', '>= 2.21', '< 4.0', '<= 4.0'
   spec.add_runtime_dependency 'aws-sdk-sqs', '~> 1.20', '<= 2.0'
   spec.add_runtime_dependency 'ox', '~> 2.14'
